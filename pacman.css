@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+div.row {
+    margin-bottom: -5px;
+}
+div.wall {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: cornflowerblue;
+}
+
+div.coin {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url("./images/coin.gif") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+div.pacman {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 20px;
+    height: 20px;
+    background: url("./images/pacman.gif") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
